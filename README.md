@@ -14,4 +14,4 @@ This script gets a process listing from the target device. This includes process
 
 # logger.py
 
-This script extracts saved logs from the device's storage, and saves them to a directory named iPhoneLogs-<timestamp>. These logs are in a Unified Log format. You can parse these binary log files using a tool such as [Mandiant's unifiedlog_parser](https://github.com/mandiant/macos-UnifiedLogs)
+This script extracts saved logs from the device's storage, and saves them to a directory named iPhoneLogs-**TIMESTAMP** These logs are in a Unified Log format. You can parse these binary log files using a tool such as [Mandiant's unifiedlog_parser](https://github.com/mandiant/macos-UnifiedLogs)
